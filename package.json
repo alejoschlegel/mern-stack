@@ -1,0 +1,30 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./backend/index.js",
+    "dev": "nodemon ./backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejoschlegel/mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejoschlegel/mern-stack/issues"
+  },
+  "homepage": "https://github.com/alejoschlegel/mern-stack#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
